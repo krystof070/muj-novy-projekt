@@ -1,0 +1,82 @@
+:root {
+    --background-color: #FFFFFF;
+    --menu-color: #F2D43D;
+    --text-color: #000000;
+    --accent-color: #f0a721;
+}
+
+body {
+    margin: 0px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+.menu ul {
+    background-color: var(--menu-color);
+    list-style: none;
+    padding-left: 27%;
+    padding-right: 27%;
+    margin: 0px;
+}
+
+.menu a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--text-color);
+
+}
+
+.menu li {
+    display: inline-block; 
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 15px;
+    transition: background-color 0.3s; 
+}
+
+.menu li a:hover {
+    background-color: var(--accent-color);
+}
+
+.main-title {
+    text-align: center;
+}
+
+.photo1 {
+    margin: 1.5%;
+    margin-left: 15%;
+    border-radius: 3%;
+    outline: solid 8px;
+    outline-color: var(--accent-color);
+    width: 500px;
+}
+
+.text1 {
+    text-align: left;
+    font-size: 25px;
+    margin-right: 15%;
+    margin-top: 7%;
+}
+
+.temporaryText {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.footer {
+    background-color: #808080;
+    color: white;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
